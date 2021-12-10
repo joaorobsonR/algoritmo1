@@ -4,5 +4,3 @@ def tabuada(n):
         print(n ,'x', i, '=', res)
 
 tabuada(5)
-print('='*10)
-tabuada(9)
