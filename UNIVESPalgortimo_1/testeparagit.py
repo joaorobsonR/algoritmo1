@@ -1,5 +1,8 @@
-n = int(input('digite um numero para tabuada '))
+def tabuada(n):
+    for i in range(0, 11):
+        res = n * i
+        print(n ,'x', i, '=', res)
 
-for i in range(0, 11):
-    res = n * i
-    print(n ,'x', i, '=', res)
+tabuada(5)
+print('='*10)
+tabuada(9)
